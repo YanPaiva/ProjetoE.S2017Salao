@@ -11,11 +11,11 @@
         "email": "libor.bus@eccam.com",
         "company": "Eccam"
       },
-      "lastChangedOn": "2017-03-30T14:54:13.498Z",
+      "lastChangedOn": "2017-04-02T15:50:17.701Z",
       "lastChangedBy": {
-        "name": "welton",
-        "email": "weltonah@hotmail.com",
-        "company": ""
+        "name": "Felipe Inhan",
+        "email": "felipe.inhan@gmail.com",
+        "company": "UFJF"
       },
       "data": [
         {
@@ -261,6 +261,50 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:19:24.861Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T15:40:09.957Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": null
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T15:41:30.899Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": "<p>Registrar e manter os dados do meu salão</p>"
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T15:45:31.932Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": "Gerente"
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T15:45:36.125Z"
                 }
               ]
             },
@@ -1368,7 +1412,7 @@
           "type": "xhtml"
         },
         "asAn": {
-          "name": "As a(n)",
+          "name": "Como um",
           "type": "enum",
           "values": [
             {
@@ -1380,11 +1424,31 @@
             },
             {
               "key": "Reviewer"
+            },
+            {
+              "key": "Gerente",
+              "value": "Gerente de um Salão"
+            },
+            {
+              "key": "Cliente",
+              "value": "Potencial cliente para Salões"
+            },
+            {
+              "key": "Usuário",
+              "value": "Usuário genérico do aplicativo"
             }
           ]
         },
         "iWant": {
-          "name": "I Want",
+          "name": "Eu quero",
+          "type": "xhtml"
+        },
+        "posC": {
+          "name": "Pós-Condições",
+          "type": "xhtml"
+        },
+        "preC": {
+          "name": "Pré-Condições",
           "type": "xhtml"
         },
         "priority": {
@@ -1418,7 +1482,7 @@
           ]
         },
         "soThat": {
-          "name": "So that",
+          "name": "Para que",
           "type": "xhtml"
         },
         "status": {
