@@ -11,7 +11,7 @@
         "email": "libor.bus@eccam.com",
         "company": "Eccam"
       },
-      "lastChangedOn": "2017-04-02T15:55:47.093Z",
+      "lastChangedOn": "2017-04-02T16:00:20.893Z",
       "lastChangedBy": {
         "name": "Felipe Inhan",
         "email": "felipe.inhan@gmail.com",
@@ -1407,10 +1407,6 @@
         }
       ],
       "attributes": {
-        "acceptanceCriteria": {
-          "name": "Acceptance Criteria",
-          "type": "xhtml"
-        },
         "asAn": {
           "name": "Como um",
           "type": "enum",
@@ -1469,6 +1465,10 @@
               "key": "Low"
             }
           ]
+        },
+        "requisitos": {
+          "name": "Requisitos",
+          "type": "xhtml"
         },
         "risk": {
           "name": "Risk",
@@ -1590,11 +1590,6 @@
             "attribute": "soThat",
             "hidden": false,
             "width": 273
-          },
-          {
-            "attribute": "acceptanceCriteria",
-            "hidden": false,
-            "width": 322
           },
           {
             "attribute": "type",
