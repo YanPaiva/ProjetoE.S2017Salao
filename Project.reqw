@@ -11,7 +11,7 @@
         "email": "libor.bus@eccam.com",
         "company": "Eccam"
       },
-      "lastChangedOn": "2017-04-02T16:00:20.893Z",
+      "lastChangedOn": "2017-04-02T16:18:49.775Z",
       "lastChangedBy": {
         "name": "Felipe Inhan",
         "email": "felipe.inhan@gmail.com",
@@ -248,8 +248,17 @@
           "children": [
             {
               "id": "9",
-              "heading": "Requisito 1",
+              "heading": "Cadastro de Salão",
+              "asAn": "Gerente",
+              "entrada": "<p>CNPJ;</p><p>Nome do Salão;</p><p>Localização;</p><p>Serviços fornecidos com respectivos preços;</p><p>Funcionários;</p><p>Horário de atendimento;</p><p>Agenda;</p>",
+              "iWant": "<p>atualizar as informações sobre meu Salão</p>",
+              "posC": "<p>O registro do salão no sistema está correspondente aos dados fornecidos</p>",
+              "preC": "<p>-</p>",
+              "requisitos": "<p>Para novos registros CNPJ deve ser verificado com a Receita;</p>",
+              "saida": "<p>Informações se dados foram cadastrados com sucesso ou não</p>",
+              "soThat": "<p>o aplicativo possa fornecer informações atuais para qualquer usuário do aplicativo</p>",
               "type": "Epic",
+              "text": "<p>Um novo salão pode ser cadastrado e seus dados atualizados pelo responsável.</p>",
               "history": [
                 {
                   "attributesChanged": {
@@ -305,6 +314,194 @@
                     "name": "Felipe Inhan"
                   },
                   "changedOn": "2017-04-02T15:45:36.125Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:01:50.588Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 1",
+                    "text": "<p>Cadastro de Salão</p>"
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:02:10.333Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:03:05.963Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Dados cadastrais de um Salão são mantidos</p>"
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:03:25.971Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:03:29.179Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": null
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:05:47.696Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": null
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:06:39.177Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": "<p>o aplicativo possa fornecer informações atualizadas para qualquer usuário do aplicativo</p>"
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:07:07.408Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:10:01.594Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:10:07.571Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:10:49.780Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:12:22.628Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": "<p>-</p>"
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:12:55.710Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:13:30.859Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": "<p>CNPJ deve ser válido;</p>"
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:13:47.333Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": "<p>Para novos regCNPJ deve ser válido;</p>"
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:14:32.630Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Dados cadastrais de um Salão são mantidos pelo responsável</p>"
+                  },
+                  "changedBy": {
+                    "company": "UFJF",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-02T16:18:49.719Z"
                 }
               ]
             },
