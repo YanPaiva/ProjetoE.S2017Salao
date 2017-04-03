@@ -11,10 +11,10 @@
         "email": "libor.bus@eccam.com",
         "company": "Eccam"
       },
-      "lastChangedOn": "2017-04-03T16:51:52.401Z",
+      "lastChangedOn": "2017-04-03T17:16:16.660Z",
       "lastChangedBy": {
-        "name": "Hexenir",
-        "email": "hexenir@gmail.com",
+        "name": "Felipe Inhan",
+        "email": "felipe.inhan@gmail.com",
         "company": ""
       },
       "data": [
@@ -560,9 +560,6 @@
             {
               "id": "19",
               "heading": "Login do usuario",
-              "asAn": "Architect",
-              "iWant": "<p>to be able to define custom object attributes</p>",
-              "soThat": "<p>I can flexibly store additional information in project documents.</p>",
               "type": "User Story",
               "text": "<p>O sistema deve permitir a autenticação de um usuário mediante fornecimento de email e senha ou de autenticação via Facebook.</p>",
               "history": [
@@ -610,15 +607,45 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-04-03T01:22:51.135Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": "Architect"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:15:50.228Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": "<p>to be able to define custom object attributes</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:16:06.018Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": "<p>I can flexibly store additional information in project documents.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:16:08.216Z"
                 }
               ]
             },
             {
               "id": "16",
               "heading": "Busca de salões",
-              "asAn": "Architect",
-              "iWant": "<p>to be able to define relationship types between document objects</p>",
-              "soThat": "<p>I can setup consistent traceability between requirements and other document objects</p>",
               "type": "User Story",
               "text": "<p>O sistema deve permitir ao usuário a busca de salões pelo nome, pela disponibilidade, pelo serviço a ser efetuado, ou pela proximidade ao local em que se encontra.</p>",
               "history": [
@@ -666,15 +693,45 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-04-03T01:23:25.849Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": "Architect"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:15:51.652Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": "<p>to be able to define relationship types between document objects</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:16:03.242Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": "<p>I can setup consistent traceability between requirements and other document objects</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:16:11.808Z"
                 }
               ]
             },
             {
               "id": "14",
               "heading": "Cadastrar Horário",
-              "asAn": "Architect",
-              "iWant": "<p>to be able to save a document as a document template into a file</p>",
-              "soThat": "<p>I can preserve consistent document structure in different projects</p>",
               "type": "User Story",
               "text": "<p>O sistema deve permitir a um gerente de salão efetuar e alterar o cadastro de horários livres.</p>",
               "history": [
@@ -733,15 +790,45 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-04-03T01:24:15.476Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": "Architect"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:15:53.010Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": "<p>to be able to save a document as a document template into a file</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:16:01.479Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": "<p>I can preserve consistent document structure in different projects</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:16:10.157Z"
                 }
               ]
             },
             {
               "id": "15",
               "heading": "Cadastro de Gerente",
-              "asAn": "Architect",
-              "iWant": "<p>to be able to save a project as a project template into a file</p>",
-              "soThat": "<p>I can quickly reuse project setup for new projects</p>",
               "type": "User Story",
               "text": "<p>O sistema deve permitir a um gerente a adição de novos gerentes a seu salão.</p>",
               "history": [
@@ -789,15 +876,45 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-04-03T01:24:53.870Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": "Architect"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:15:54.733Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": "<p>to be able to save a project as a project template into a file</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:16:00.186Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": "<p>I can quickly reuse project setup for new projects</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:16:14.003Z"
                 }
               ]
             },
             {
               "id": "12",
               "heading": "Avaliar salão",
-              "asAn": "Architect",
-              "iWant": "<p>to be able to create documents in the project</p>",
-              "soThat": "<p>I can separate definition of project requirements, tests, risks and other project artifacts</p>",
               "type": "User Story",
               "text": "<p>O sistema deve permitir ao usuário a qualificação de um salão em uma métrica de 1 a 5 estrelas e um comentário.</p>",
               "history": [
@@ -845,6 +962,39 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-04-03T01:25:15.830Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": "Architect"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:15:56.592Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": "<p>to be able to create documents in the project</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:15:58.863Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": "<p>I can separate definition of project requirements, tests, risks and other project artifacts</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:16:16.579Z"
                 }
               ]
             },
@@ -876,6 +1026,28 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-04-03T01:25:41.073Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:15:27.752Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": "Gerente"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:15:41.818Z"
                 }
               ]
             },
@@ -2304,9 +2476,6 @@
         {
           "id": "13",
           "heading": "Requisitos não funcionais",
-          "asAn": "Editor",
-          "iWant": "<p>to be able to organize document objects in a tree hierarchy with numbered sections</p>",
-          "soThat": "<p>I can easily navigate in the document structure</p>",
           "type": "User Story",
           "history": [
             {
@@ -2352,6 +2521,39 @@
                 "name": "welton"
               },
               "changedOn": "2017-03-30T14:54:13.150Z"
+            },
+            {
+              "attributesChanged": {
+                "iWant": "<p>to be able to organize document objects in a tree hierarchy with numbered sections</p>"
+              },
+              "changedBy": {
+                "company": "",
+                "email": "hexenir@gmail.com",
+                "name": "Hexenir"
+              },
+              "changedOn": "2017-04-03T17:12:17.862Z"
+            },
+            {
+              "attributesChanged": {
+                "asAn": "Editor"
+              },
+              "changedBy": {
+                "company": "",
+                "email": "hexenir@gmail.com",
+                "name": "Hexenir"
+              },
+              "changedOn": "2017-04-03T17:12:21.736Z"
+            },
+            {
+              "attributesChanged": {
+                "soThat": "<p>I can easily navigate in the document structure</p>"
+              },
+              "changedBy": {
+                "company": "",
+                "email": "hexenir@gmail.com",
+                "name": "Hexenir"
+              },
+              "changedOn": "2017-04-03T17:12:26.034Z"
             }
           ],
           "children": [
