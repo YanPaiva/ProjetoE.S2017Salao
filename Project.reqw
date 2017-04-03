@@ -11,10 +11,10 @@
         "email": "libor.bus@eccam.com",
         "company": "Eccam"
       },
-      "lastChangedOn": "2017-04-03T03:42:37.162Z",
+      "lastChangedOn": "2017-04-03T16:51:52.401Z",
       "lastChangedBy": {
-        "name": "yan de paiva andrade",
-        "email": "yan_13jf@hotmail.com",
+        "name": "Hexenir",
+        "email": "hexenir@gmail.com",
         "company": ""
       },
       "data": [
@@ -1787,7 +1787,11 @@
             },
             {
               "id": "78",
-              "heading": "Requisito 20",
+              "heading": "Reportar abuso",
+              "asAn": "Usuário",
+              "iWant": "<p>Reportar abuso</p>",
+              "soThat": "<p>Medidas punitivas apropriades sejam tomadas</p>",
+              "text": "<p>O sistema deve permitir que qualquer usuário cadastrado reporte abuso de linguagem e comportamento ofensivo.</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -1810,12 +1814,72 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:52:19.983Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 20",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:19:35.537Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>O sistema deve permitir que qualquer usuário cadastrado reporte abuso de linguagem</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:20:00.551Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:20:03.903Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:20:44.283Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:20:57.259Z"
                 }
               ]
             },
             {
               "id": "79",
-              "heading": "Requisito 21",
+              "heading": "Manter Favoritos",
+              "asAn": "Usuário",
+              "iWant": "<p>Marcar Salões como favoritos</p>",
+              "soThat": "<p>eu receba notificações de promoções sobre esse Salões, e possa acessar informações sobre eles mesmo em modo offline.</p>",
+              "text": "<p>O sistema deve manter registro de Salões favoritos por usuário.</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -1838,12 +1902,95 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:52:24.351Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 21",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:21:35.799Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>O usuário pode marcar um ou mais salões como favorito, </p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:22:25.421Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:22:30.696Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:22:45.285Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Adicionar Favorito",
+                    "text": "<p>O usuário pode marcar um ou mais salões como favorito</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:23:15.925Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": "<p>Marcar </p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:23:30.243Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:24:31.628Z"
                 }
               ]
             },
             {
               "id": "80",
-              "heading": "Requisito 22",
+              "heading": "Registro de Serviços",
+              "asAn": "Cliente",
+              "iWant": "<p>Ver os registros dos serviços utilizados através do aplicativo</p>",
+              "soThat": "<p>seja fácil lembrar dos Salões que utilizei, minha avaliação deles e quanto gastei nos serviços comprados.</p>",
+              "text": "<p>O sistema deve manter um histórico dos serviços utilizados pelo cliente</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -1866,12 +2013,72 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:52:29.135Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 22",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:35:53.065Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:35:57.903Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>O sistema deve manter um histórico dos serviços utilizados pelo usuário</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:36:05.314Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:36:43.367Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T14:38:19.005Z"
                 }
               ]
             },
             {
               "id": "81",
-              "heading": "Requisito 23",
+              "heading": "Notificações de Filiais",
+              "asAn": "Cliente",
+              "iWant": "<p>Receber notificações de filiais dos meus Salões favoritos, em caso de visita em outras localidades</p>",
+              "soThat": "<p>seja simples encontrar Salões de boa qualidade, mesmo que eu não conheça o local.</p>",
+              "text": "<p>O sistema deve notificar o usuário da presença de filiais de Salões adicionados aos favoritos</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -1894,12 +2101,61 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:52:33.069Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 23",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T16:46:08.773Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T16:46:13.218Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T16:46:51.351Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T16:47:50.092Z"
                 }
               ]
             },
             {
               "id": "82",
-              "heading": "Requisito 24",
+              "heading": "Bloqueio de Salões",
+              "asAn": "Cliente",
+              "iWant": "<p>esconder Salões que não me interessam, removendo notificações e indicador de localização do meu mapa.</p>",
+              "soThat": "<p>eu possa filtrar Salões e melhorar a visibilidade de Salões que tenho preferência ou oferecem os serviços que desejo.</p>",
+              "text": "<p>O sistema deve permitir ao usuário o bloqueio de Salões</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -1922,11 +2178,90 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:52:37.438Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 24",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T16:48:22.616Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T16:48:25.351Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T16:49:03.766Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": "<p>esconder Salões que não me agradam</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T16:49:31.565Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T16:49:54.844Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": "<p>esconder Salões que não me agradam, removendo notificações e indicador de localização do meu mapa.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T16:50:03.889Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": "<p>eu possa filtrar Salões e </p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T16:50:45.731Z"
                 }
               ]
             },
             {
               "id": "83",
+              "deleted": true,
               "heading": "Requisito 25",
               "history": [
                 {
@@ -1950,6 +2285,17 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:52:42.139Z"
+                },
+                {
+                  "attributesChanged": {
+                    "deleted": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T16:51:52.296Z"
                 }
               ]
             }
@@ -2677,7 +3023,7 @@
             {
               "id": "91",
               "heading": "Requisitos organizacionais, padrões.",
-              "text": "<p><strong>É necessário que o sistema possibilite o uso de customizações por meio dos salões, tais como anúncios e logos. A fim de maximizar o marketing e consequentemente o lucro do salão.  </strong></p>",
+              "text": "<p><strong>É necessário que o sistema possibilite o uso de customizações por meio dos salões, tais como anúncios e logos. A fim de maximizar o marketing e consequentemente o lucro do salão. &nbsp;</strong></p>",
               "history": [
                 {
                   "affectedNodeId": "13",
