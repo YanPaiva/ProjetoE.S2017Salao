@@ -11,7 +11,7 @@
         "email": "libor.bus@eccam.com",
         "company": "Eccam"
       },
-      "lastChangedOn": "2017-04-03T17:16:16.660Z",
+      "lastChangedOn": "2017-04-03T17:35:44.419Z",
       "lastChangedBy": {
         "name": "Felipe Inhan",
         "email": "felipe.inhan@gmail.com",
@@ -248,12 +248,12 @@
           "children": [
             {
               "id": "9",
-              "heading": "Cadastro de usuario",
+              "heading": "Cadastro de Salão",
               "asAn": "Gerente",
               "entrada": "<p>CNPJ;</p><p>Nome do Salão;</p><p>Localização;</p><p>Serviços fornecidos com respectivos preços;</p><p>Funcionários;</p><p>Horário de atendimento;</p><p>Agenda;</p>",
               "iWant": "<p>atualizar as informações sobre meu Salão</p>",
               "posC": "<p>O registro do salão no sistema está correspondente aos dados fornecidos</p>",
-              "preC": "<p>-</p>",
+              "preC": "<p>O Gerente deve ter uma conta de usuário e estar autenticado</p>",
               "requisitos": "<p>Para novos registros CNPJ deve ser verificado com a Receita;</p>",
               "saida": "<p>Informações se dados foram cadastrados com sucesso ou não</p>",
               "soThat": "<p>o aplicativo possa fornecer informações atuais para qualquer usuário do aplicativo</p>",
@@ -514,13 +514,43 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-04-03T01:22:25.359Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Cadastro de usuario"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:25:12.215Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": "<p>-</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:30:53.391Z"
                 }
               ]
             },
             {
               "id": "93",
-              "heading": "Cadastro de salão",
-              "text": "<p>O sistema deve permitir ao gerente o cadastro do salão.</p>",
+              "heading": "Cadastro de Usuário",
+              "asAn": "Usuário",
+              "entrada": "<p>Nome;</p><p>Email;</p><p>Data de Nascimento;</p><p>CPF;</p><p>Endereço;</p><p>Senha</p>",
+              "iWant": "<p>atualizar minhas informações pessoas</p>",
+              "posC": "<p>O dados fornecidos estão salvos no sistema</p>",
+              "preC": "<p>-</p>",
+              "requisitos": "<p>O CPF tem que ser único no sistema;</p><p>Senha deve ser não-trivial</p>",
+              "saida": "<p>Informações se dados foram cadastrados com sucesso ou não</p>",
+              "soThat": "<p>os dados do sistema condizam com a realidade</p>",
+              "text": "<p>O sistema deve permitir a qualquer usuário o cadastro.</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -554,12 +584,152 @@
                     "name": "Hugo Tavares de Almeida"
                   },
                   "changedOn": "2017-04-03T02:16:40.075Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Cadastro de salão"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:25:17.197Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>O sistema deve permitir ao gerente o cadastro do salão.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:25:39.481Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:25:50.746Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:26:11.276Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:26:23.830Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:26:53.134Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": "<p>Nome;</p><p>Email;</p><p>Data de Nascimento;</p><p>CPF;</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:27:02.293Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:27:27.066Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:27:29.861Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:27:42.881Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:27:54.469Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": "<p>O CPF tem que ser único no sistema;</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:31:21.237Z"
                 }
               ]
             },
             {
               "id": "19",
               "heading": "Login do usuario",
+              "asAn": "Usuário",
+              "entrada": "<p>Login e Senha;</p><p>ou token de autenticação do Facebook.</p>",
+              "iWant": "<p>realizar autenticação no sistema</p>",
+              "posC": "<p>Usuário autenticado e sessão com privilégios de acordo, ou nenhuma alteração.</p>",
+              "preC": "<p>-</p>",
+              "requisitos": "<p>-</p>",
+              "saida": "<p>Redirecionamento para página do usuário ou mensagem de erro.</p>",
+              "soThat": "<p>possa realizar operações com minhas credenciais e privilégios</p>",
               "type": "User Story",
               "text": "<p>O sistema deve permitir a autenticação de um usuário mediante fornecimento de email e senha ou de autenticação via Facebook.</p>",
               "history": [
@@ -640,12 +810,119 @@
                     "name": "Hexenir"
                   },
                   "changedOn": "2017-04-03T17:16:08.216Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:28:07.205Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:28:23.834Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": "<p>me autenticar no sistema para realizar operações</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:28:36.619Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:28:51.339Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:29:15.216Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:30:03.077Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:30:21.050Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:31:04.093Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:31:54.949Z"
                 }
               ]
             },
             {
               "id": "16",
               "heading": "Busca de salões",
+              "asAn": "Usuário",
+              "entrada": "<p>Nome do Salão;</p><p>Horário disponível desejado;</p><p>Distância máxima desejada;</p><p>Serviço desejado.</p><p> </p>",
+              "iWant": "<p>buscar e filtrar salões registrados</p>",
+              "posC": "<p>-</p>",
+              "preC": "<p>O usuário deve estar autenticado.</p><p>Para buscar por proximidade, o GPS deve estar ligado</p>",
+              "requisitos": "<p>-</p>",
+              "saida": "<p>Lista de salões que satisfazem os parâmetros de entrada.</p>",
+              "soThat": "<p>eu encontre o serviço desejado com o maior conforto possível</p>",
               "type": "User Story",
               "text": "<p>O sistema deve permitir ao usuário a busca de salões pelo nome, pela disponibilidade, pelo serviço a ser efetuado, ou pela proximidade ao local em que se encontra.</p>",
               "history": [
@@ -726,6 +1003,127 @@
                     "name": "Hexenir"
                   },
                   "changedOn": "2017-04-03T17:16:11.808Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:32:15.251Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:32:32.477Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:32:51.483Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:33:27.188Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": "<p>Nome,</p><p> Localidade</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:34:15.337Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": "<p>Nome do Salão;</p><p>Horário disponível desejado;</p><p>Distância máxima desejada;</p><p> </p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:34:25.721Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:34:40.401Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:35:02.645Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:35:16.249Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:35:37.540Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": "<p>Lista de salões que condizem com os parâmetros de entrada.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "hexenir@gmail.com",
+                    "name": "Hexenir"
+                  },
+                  "changedOn": "2017-04-03T17:35:44.348Z"
                 }
               ]
             },
