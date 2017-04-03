@@ -11,7 +11,7 @@
         "email": "libor.bus@eccam.com",
         "company": "Eccam"
       },
-      "lastChangedOn": "2017-04-03T19:07:55.271Z",
+      "lastChangedOn": "2017-04-03T20:56:00.194Z",
       "lastChangedBy": {
         "name": "Felipe Inhan",
         "email": "felipe.inhan@gmail.com",
@@ -2446,7 +2446,12 @@
               "id": "68",
               "heading": "Emissão de relatório",
               "asAn": "Gerente",
+              "entrada": "<p>Período</p>",
               "iWant": "<p>Emitir relatórios.</p>",
+              "posC": "<p>-</p>",
+              "preC": "<p>Gerente autenticado.</p>",
+              "requisitos": "<p>Período inicial deve ser posterior ao registro do Salão no sistema</p>",
+              "saida": "<p>Arquivo externo contendo os gráficos e tabelas relevantes.</p>",
               "soThat": "<p>Possa ter controle do negócio.</p>",
               "text": "<p>O sistema deve permitir ao gerente do salão emitir um relatório em formatos de gráfico e planilha mostrando quantas pessoas acessaram o seu salão no aplicativo, quantas agendaram um horário e o número de classificação que os usuários avaliaram em questão de semana, mês e ano.</p>",
               "history": [
@@ -2538,14 +2543,74 @@
                     "name": "Hugo Tavares de Almeida"
                   },
                   "changedOn": "2017-04-03T02:23:34.176Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:50:44.821Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:50:51.109Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:50:53.028Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:51:27.337Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:52:17.331Z"
                 }
               ]
             },
             {
               "id": "69",
               "heading": "Cadastro de propaganda ",
-              "asAn": "Architect",
+              "asAn": "Administrador",
+              "entrada": "<p>URL da propaganda ou script que obtém a URL</p>",
               "iWant": "<p>Cadastrar propagandas.</p>",
+              "posC": "<p>Nova propaganda registrada no sistema.</p>",
+              "preC": "<p>Admnistrador está autenticado</p>",
+              "requisitos": "<p>Propaganda não deve ter conteúdo adulto</p>",
+              "saida": "<p>Propaganda salva com sucesso ou não.</p>",
               "soThat": "<p>Possa monetizar o sistema.</p>",
               "text": "<p>O sistema deve permitir que o administrador do sistema cadastre propagandas que irão aparecer na tela inicial do usuário do sistema.</p>",
               "history": [
@@ -2626,13 +2691,95 @@
                     "name": "Hugo Tavares de Almeida"
                   },
                   "changedOn": "2017-04-03T02:27:05.029Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": "Architect"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:42:10.112Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:43:03.721Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:43:18.671Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:43:31.411Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:43:48.103Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:43:58.967Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": "<p>-</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:44:15.976Z"
                 }
               ]
             },
             {
               "id": "70",
               "heading": "Gerar notificação ao usuário",
+              "entrada": "<p>-</p>",
               "iWant": "<p>Emitir notificação.</p><p><br></p>",
+              "posC": "<p>Agendamento é marcado como notificado.</p>",
+              "preC": "<p>Usuário utilizou o app para agendar um serviço.</p>",
+              "requisitos": "<p>-</p>",
+              "saida": "<p>Notificação para o usuário com o dados do agendamento.</p>",
               "soThat": "<p>O usuário não perca o agendamento.</p>",
               "text": "<p>O sistema deve notificar o usuário no início do dia agendado sobre o serviço que ele agendou anteriormente com o salão.</p>",
               "history": [
@@ -2691,6 +2838,94 @@
                     "name": "Hugo Tavares de Almeida"
                   },
                   "changedOn": "2017-04-03T02:27:44.112Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:44:33.707Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:44:43.440Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:44:54.991Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": "Administrador"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:44:57.543Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": "<p>Usuário agendou </p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:45:13.662Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:45:32.016Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:45:42.300Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:46:03.924Z"
                 }
               ]
             },
@@ -2698,7 +2933,12 @@
               "id": "71",
               "heading": "Cadastrar promoções",
               "asAn": "Gerente",
+              "entrada": "<p>Salões que a promoção é válida;</p><p>Serviço a ser colocado em promoção;</p><p>Desconto;</p><p>Período que a promoção está ativa;</p><p>Observações.</p>",
               "iWant": "<p>Cadastrar promoções e descontos.</p>",
+              "posC": "<p>Promoção está cadastrada no sistema e publicada para usuários relevantes.</p>",
+              "preC": "<p>O Gerente está autenticado</p>",
+              "requisitos": "<p>Serviço deve ser fornecido pelos Salões selecionados;</p><p>Período deve estar de acordo com o horário de funcionamento;</p><p>Período não pode ser no passado.</p>",
+              "saida": "<p>Cadastro de promoção com sucesso ou não.</p>",
               "soThat": "<p>Possa promover os serviços.</p>",
               "text": "<p>O sistema deve permitir ao gerente do salão que cadastre promoções e descontos nos serviços em dias que julgar necessário.</p>",
               "history": [
@@ -2768,6 +3008,72 @@
                     "name": "Hugo Tavares de Almeida"
                   },
                   "changedOn": "2017-04-03T02:28:21.833Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:47:10.155Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:47:19.501Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:47:41.661Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": "<p>Serviço a ser colocado em promoção;</p><p>Desconto;</p><p>Período que a promoção está ativa;</p><p>Observações.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:48:01.159Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:49:32.178Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:49:43.733Z"
                 }
               ]
             },
@@ -3182,7 +3488,12 @@
               "id": "78",
               "heading": "Reportar abuso",
               "asAn": "Usuário",
+              "entrada": "<p>Usuário que reportou;</p><p>Comentário reportado;</p><p>Observações</p>",
               "iWant": "<p>Reportar abuso</p>",
+              "posC": "<p>Registro de abuso;</p><p>Comentário é escondido do público enquanto está em análise.</p>",
+              "preC": "<p>Usuário autenticado</p>",
+              "requisitos": "<p>O usuário não pode reportar um comentário feito por ele mesmo.</p>",
+              "saida": "<p>Mensagem de operação realizada com sucesso, ou não.</p>",
               "soThat": "<p>Medidas punitivas apropriades sejam tomadas</p>",
               "text": "<p>O sistema deve permitir que qualquer usuário cadastrado reporte abuso de linguagem e comportamento ofensivo.</p>",
               "history": [
@@ -3263,6 +3574,72 @@
                     "name": "Felipe Inhan"
                   },
                   "changedOn": "2017-04-03T14:20:57.259Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:53:57.410Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:54:12.250Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:54:28.156Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": "<p>Registro de </p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:55:14.003Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:55:30.280Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T20:56:00.113Z"
                 }
               ]
             },
@@ -4850,6 +5227,10 @@
             {
               "key": "Gerente",
               "value": "Gerente de um Salão"
+            },
+            {
+              "key": "Administrador",
+              "value": "Administrador do Aplicativo"
             },
             {
               "key": "Cliente",
