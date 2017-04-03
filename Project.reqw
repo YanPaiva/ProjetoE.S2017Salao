@@ -11,7 +11,7 @@
         "email": "libor.bus@eccam.com",
         "company": "Eccam"
       },
-      "lastChangedOn": "2017-04-03T18:01:10.654Z",
+      "lastChangedOn": "2017-04-03T19:07:55.271Z",
       "lastChangedBy": {
         "name": "Felipe Inhan",
         "email": "felipe.inhan@gmail.com",
@@ -2083,6 +2083,14 @@
             {
               "id": "66",
               "heading": "Notificação de agendamento",
+              "asAn": "Gerente",
+              "entrada": "<p>-</p>",
+              "iWant": "<p>ser informado quando Clientes fazem reservas nos meus Salão.</p>",
+              "posC": "<p>Registro de notificação de reserva no sistema.</p>",
+              "preC": "<p>Deve existir uma reserva para um Salão gerenciado pelo ator.</p>",
+              "requisitos": "<p>-</p>",
+              "saida": "<p>Notificação na plataforma.</p>",
+              "soThat": "<p>eu possa alocar recursos necessários e identificar comportamentos padrões do meu cliente para melhoria do meu negócio</p>",
               "text": "<p>O sistema deve gerar uma notificação para o gerente no caso de agendamento e deve permitir ao gerente aprovar ou rejeitar o agendamento, permitindo um comentário no caso de rejeição</p>",
               "history": [
                 {
@@ -2118,6 +2126,149 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-04-03T01:26:49.774Z"
+                },
+                {
+                  "attributesChanged": {
+                    "asAn": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:50:19.500Z"
+                },
+                {
+                  "attributesChanged": {
+                    "iWant": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:50:49.498Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:51:42.469Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:51:48.333Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:52:05.344Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": "<p>Registro de notificação de reserva no sistema.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:52:17.120Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:52:21.436Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": "<p>Registro de notificação de reserva no sistema.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:52:41.083Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:52:42.380Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:52:44.980Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": "<p>-</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:53:13.309Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:53:18.796Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:53:35.383Z"
                 }
               ]
             },
@@ -2125,8 +2276,13 @@
               "id": "67",
               "heading": "Cadastro de feedback",
               "asAn": "Usuário",
+              "entrada": "<p>Tipo de erro;</p><p>Texto com descrição do evento ou sugestão.</p>",
               "iWant": "<p>Emitir feedback.</p>",
-              "soThat": "<p>Possa ser enviado ao administrador.</p>",
+              "posC": "<p>Registro de feedback no sistema.</p>",
+              "preC": "<p>Usuário deve estar autenticado.</p>",
+              "requisitos": "<p>-</p>",
+              "saida": "<p>Mensagem informando se o registro foi realizado com sucesso ou não.</p>",
+              "soThat": "<p>o administrator melhore o sistema ou corrija erros</p>",
               "text": "<p>O sistema deve permitir ao usuário ou gerente a emissão de feedback a ser avaliado pelo administrador.</p>",
               "history": [
                 {
@@ -2206,6 +2362,83 @@
                     "name": "Hugo Tavares de Almeida"
                   },
                   "changedOn": "2017-04-03T02:22:44.477Z"
+                },
+                {
+                  "attributesChanged": {
+                    "soThat": "<p>Possa ser enviado ao administrador.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:54:32.656Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:54:50.089Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": "<p>Tipo de erro;</p><p>Text com descrição.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:56:22.573Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:56:41.843Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:57:00.165Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:57:02.987Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:57:22.158Z"
                 }
               ]
             },
@@ -3037,7 +3270,12 @@
               "id": "79",
               "heading": "Manter Favoritos",
               "asAn": "Usuário",
+              "entrada": "<p>Salão</p>",
               "iWant": "<p>Marcar Salões como favoritos</p>",
+              "posC": "<p>Salão informado está na lista de Salões favoritos do usuário.</p>",
+              "preC": "<p>Usuário autenticado.</p>",
+              "requisitos": "<p>O Salão não pode estar bloqueado.</p>",
+              "saida": "<p>Informação de sucesso ou erro.</p>",
               "soThat": "<p>eu receba notificações de promoções sobre esse Salões, e possa acessar informações sobre eles mesmo em modo offline.</p>",
               "text": "<p>O sistema deve manter registro de Salões favoritos por usuário.</p>",
               "history": [
@@ -3141,6 +3379,83 @@
                     "name": "Felipe Inhan"
                   },
                   "changedOn": "2017-04-03T14:24:31.628Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:58:15.378Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:58:22.650Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:58:48.937Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:59:03.170Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": "<p>-</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:59:15.164Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:59:25.954Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": "<p>Salão informado está adicionado na lista de Salões favoritos do usuário.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:02:49.646Z"
                 }
               ]
             },
@@ -3148,7 +3463,12 @@
               "id": "80",
               "heading": "Registro de Serviços",
               "asAn": "Cliente",
+              "entrada": "<p>-</p>",
               "iWant": "<p>Ver os registros dos serviços utilizados através do aplicativo</p>",
+              "posC": "<p>-</p>",
+              "preC": "<p>Usuário autenticado.</p>",
+              "requisitos": "<p>-</p>",
+              "saida": "<p>Tabela com os registros de Salões visitados, data de visita, valores pagos e serviços utilizados pelo usuáro.</p>",
               "soThat": "<p>seja fácil lembrar dos Salões que utilizei, minha avaliação deles e quanto gastei nos serviços comprados.</p>",
               "text": "<p>O sistema deve manter um histórico dos serviços utilizados pelo cliente</p>",
               "history": [
@@ -3229,6 +3549,61 @@
                     "name": "Felipe Inhan"
                   },
                   "changedOn": "2017-04-03T14:38:19.005Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:59:41.703Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:59:48.556Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T18:59:51.648Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:00:11.128Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:01:19.879Z"
                 }
               ]
             },
@@ -3236,7 +3611,12 @@
               "id": "81",
               "heading": "Notificações de Filiais",
               "asAn": "Cliente",
+              "entrada": "<p>-</p>",
               "iWant": "<p>Receber notificações de filiais dos meus Salões favoritos, em caso de visita em outras localidades</p>",
+              "posC": "<p>-</p>",
+              "preC": "<p>Usuário autenticado.</p><p>Pelo menos um Salão favorito registrado para esse usuário.</p>",
+              "requisitos": "<p>Usuário está longe de sua localização normal.</p><p>Existe uma filial de um Salão favorito em posição próxima do usuário.</p>",
+              "saida": "<p>Notificação com localização do salão é enviada para o usuário.</p>",
               "soThat": "<p>seja simples encontrar Salões de boa qualidade, mesmo que eu não conheça o local.</p>",
               "text": "<p>O sistema deve notificar o usuário da presença de filiais de Salões adicionados aos favoritos</p>",
               "history": [
@@ -3306,6 +3686,83 @@
                     "name": "Felipe Inhan"
                   },
                   "changedOn": "2017-04-03T16:47:50.092Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:03:22.939Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:03:31.920Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": "<p>Gerente deve ter cadastrado filiais.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:04:04.972Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:04:10.912Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": "<p>Gerente deve ter cadastrado filiais do Salão.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:04:52.974Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:06:52.070Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:07:55.189Z"
                 }
               ]
             },
@@ -3313,7 +3770,12 @@
               "id": "82",
               "heading": "Bloqueio de Salões",
               "asAn": "Cliente",
+              "entrada": "<p>Salão</p>",
               "iWant": "<p>esconder Salões que não me interessam, removendo notificações e indicador de localização do meu mapa.</p>",
+              "posC": "<p>Salão informado está na lista de Salões bloqueados do usuário.</p>",
+              "preC": "<p>Usuário autenticado</p>",
+              "requisitos": "<p>O Salão não pode ser favorito.</p>",
+              "saida": "<p>Informação de sucesso ou erro.</p>",
               "soThat": "<p>eu possa filtrar Salões e melhorar a visibilidade de Salões que tenho preferência ou oferecem os serviços que desejo.</p>",
               "text": "<p>O sistema deve permitir ao usuário o bloqueio de Salões</p>",
               "history": [
@@ -3416,6 +3878,61 @@
                     "name": "Felipe Inhan"
                   },
                   "changedOn": "2017-04-03T16:50:45.731Z"
+                },
+                {
+                  "attributesChanged": {
+                    "entrada": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:02:16.393Z"
+                },
+                {
+                  "attributesChanged": {
+                    "preC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:02:23.010Z"
+                },
+                {
+                  "attributesChanged": {
+                    "posC": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:02:44.978Z"
+                },
+                {
+                  "attributesChanged": {
+                    "requisitos": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:02:58.234Z"
+                },
+                {
+                  "attributesChanged": {
+                    "saida": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "felipe.inhan@gmail.com",
+                    "name": "Felipe Inhan"
+                  },
+                  "changedOn": "2017-04-03T19:03:08.332Z"
                 }
               ]
             },
