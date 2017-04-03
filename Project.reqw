@@ -11,11 +11,11 @@
         "email": "libor.bus@eccam.com",
         "company": "Eccam"
       },
-      "lastChangedOn": "2017-04-03T02:33:12.328Z",
+      "lastChangedOn": "2017-04-03T03:42:37.162Z",
       "lastChangedBy": {
-        "name": "Hugo Tavares de Almeida",
-        "email": "strgwark@gmail.com",
-        "company": "UFJF"
+        "name": "yan de paiva andrade",
+        "email": "yan_13jf@hotmail.com",
+        "company": ""
       },
       "data": [
         {
@@ -1239,7 +1239,7 @@
             {
               "id": "70",
               "heading": "Gerar notificação ao usuário",
-              "iWant": "<p>Emitir notificação.</p><p> </p>",
+              "iWant": "<p>Emitir notificação.</p><p><br></p>",
               "soThat": "<p>O usuário não perca o agendamento.</p>",
               "text": "<p>O sistema deve notificar o usuário no início do dia agendado sobre o serviço que ele agendou anteriormente com o salão.</p>",
               "history": [
@@ -2011,7 +2011,8 @@
           "children": [
             {
               "id": "73",
-              "heading": "Requisito não funcional 1",
+              "heading": "Requisitos organizacionais, implementação.",
+              "text": "<p><strong>O sistema deve ser totalmente aderente aos principais conceitos de Orientação a Objeto (encapsulamento, herança, polimorfismo, tipificação forte, etc.).</strong></p>",
               "history": [
                 {
                   "affectedNodeId": "#",
@@ -2045,12 +2046,222 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:53:09.607Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito não funcional 1"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:32:19.147Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:32:43.328Z"
+                },
+                {
+                  "affectedNodeId": "84",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:33:12.756Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapDown"
+                },
+                {
+                  "affectedNodeId": "84",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:33:14.683Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapUp"
+                },
+                {
+                  "affectedNodeId": "13",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:35:04.570Z",
+                  "docId": "NEEDS",
+                  "structureAction": "LevelUp"
+                },
+                {
+                  "affectedNodeId": "#",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:35:07.224Z",
+                  "docId": "NEEDS",
+                  "structureAction": "LevelDown"
+                },
+                {
+                  "affectedNodeId": "13",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:35:13.422Z",
+                  "docId": "NEEDS",
+                  "structureAction": "LevelUp"
+                },
+                {
+                  "affectedNodeId": "13",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:35:17.239Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapUp"
+                },
+                {
+                  "affectedNodeId": "13",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:35:30.257Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapDown"
+                },
+                {
+                  "affectedNodeId": "#",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:35:51.379Z",
+                  "docId": "NEEDS",
+                  "structureAction": "LevelDown"
+                },
+                {
+                  "affectedNodeId": "92",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:35:58.856Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapUp"
+                },
+                {
+                  "affectedNodeId": "91",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:35:59.625Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapUp"
+                },
+                {
+                  "affectedNodeId": "90",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:36:00.151Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapUp"
+                },
+                {
+                  "affectedNodeId": "89",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:36:00.859Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapUp"
+                },
+                {
+                  "affectedNodeId": "88",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:36:01.607Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapUp"
+                },
+                {
+                  "affectedNodeId": "87",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:36:02.200Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapUp"
+                },
+                {
+                  "affectedNodeId": "86",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:36:02.637Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapUp"
+                },
+                {
+                  "affectedNodeId": "85",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:36:03.297Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapUp"
+                },
+                {
+                  "affectedNodeId": "84",
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:36:04.165Z",
+                  "docId": "NEEDS",
+                  "structureAction": "SwapUp"
                 }
               ]
             },
             {
               "id": "84",
-              "heading": "Requisito não funcional 2",
+              "heading": "Requisitos de produto, eficiência, espaço de armazenamento. ",
+              "text": "<p><strong>O sistema deve manter uma base de dados contendo todas as informações necessárias e esta base de dados deverá se manter atualizada</strong></p>",
               "history": [
                 {
                   "affectedNodeId": "13",
@@ -2073,12 +2284,46 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:53:16.496Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito não funcional 2"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:34:41.356Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:34:57.688Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>​​​​​​​<strong>O sistema deve manter uma base de dados contendo todas as informações necessárias e esta base de dados deverá se manter atualizada</strong></p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:37:38.376Z"
                 }
               ]
             },
             {
               "id": "85",
-              "heading": "Requisito não funcional 3",
+              "heading": " Requisitos externos, interoperabilidade.",
+              "text": "<p><strong>O sistema deverá se manter disponível mesmo durante atualizações e modificações, isto é, uma só será permitido atualizações por meio de releases totalmente funcionais.</strong></p>",
               "history": [
                 {
                   "affectedNodeId": "13",
@@ -2101,12 +2346,47 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:53:20.884Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito não funcional 3"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:36:23.221Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:37:11.809Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "4.3 Requisitos externos, interoperabilidade.",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:37:28.587Z"
                 }
               ]
             },
             {
               "id": "86",
-              "heading": "Requisito não funcional 4",
+              "heading": "Requisitos de produto, facilidade de uso",
+              "text": "<p><strong>O sistema deve ter design responsivo, se adequando à resolução do aparelho em que está sendo executado. E deve possuir interface intuitiva, e reduzir ao máximo o número de cliques do usuário com a finalidade de maximizar os micro momentos de interação do usuário com o smartphone </strong></p>",
               "history": [
                 {
                   "affectedNodeId": "13",
@@ -2129,12 +2409,36 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:53:24.728Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:38:13.421Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito não funcional 4",
+                    "text": "<ul><li>​​​​​​​<strong>O sistema deve ter design responsivo, se adequando à resolução do aparelho em que está sendo executado. E deve possuir interface intuitiva, e reduzir ao máximo o número de cliques do usuário com a finalidade de maximizar os micro momentos de interação do usuário com o smartphone </strong></li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:38:34.900Z"
                 }
               ]
             },
             {
               "id": "87",
-              "heading": "Requisito não funcional 5",
+              "heading": "Requisitos organizacionais, padrões ",
+              "text": "<p><strong>O sistema deve ser compatível com sistemas operacionais Android a partir da versão 3.0 e IOS a partir da 9.3.</strong></p>",
               "history": [
                 {
                   "affectedNodeId": "13",
@@ -2157,12 +2461,46 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:53:28.412Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito não funcional 5"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:38:43.534Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:38:59.212Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:39:38.157Z"
                 }
               ]
             },
             {
               "id": "88",
-              "heading": "Requisito não funcional 6",
+              "heading": "Requisitos externos, éticos ",
+              "text": "<p>​​​​​​​<strong>O sistema deve possuir padrões de acessibilidade de forma a oferecer uma experiência satisfatória a portadores de algum tipo de deficiência visual ou auditiva.</strong></p>",
               "history": [
                 {
                   "affectedNodeId": "13",
@@ -2185,12 +2523,46 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:53:32.219Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito não funcional 6"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:39:48.845Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:39:56.771Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:40:10.392Z"
                 }
               ]
             },
             {
               "id": "89",
-              "heading": "Requisito não funcional 7",
+              "heading": "Requisitos externos, legais, privacidade e segurança ",
+              "text": "<p><strong>O sistema deve manter os dados dos usuários seguros de forma a impedir que esses dados sejam passados a terceiros sem autorização prévia dos usuários.</strong></p>",
               "history": [
                 {
                   "affectedNodeId": "13",
@@ -2213,12 +2585,37 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:53:36.144Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito não funcional 7",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:40:29.621Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": "<ol><li><ol><li><ol><li><p><strong>O sistema deve manter os dados dos usuários seguros de forma a impedir que esses dados sejam passados a terceiros sem autorização prévia dos usuários.</strong></p></li></ol></li></ol></li></ol>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:40:55.382Z"
                 }
               ]
             },
             {
               "id": "90",
-              "heading": "Requisito não funcional 8",
+              "heading": "Requisitos de produto, eficiência, espaço e desempenho",
+              "text": "<p><strong>É necessário que o sistema tenha baixo consumo de processamento para compatibilidade com smartphones mais populares, visando assim um nicho de mercado mais amplo. </strong></p>",
               "history": [
                 {
                   "affectedNodeId": "13",
@@ -2252,12 +2649,35 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:53:58.558Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito não funcional 8"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:41:23.290Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:41:35.914Z"
                 }
               ]
             },
             {
               "id": "91",
-              "heading": "Requisito não funcional 9",
+              "heading": "Requisitos organizacionais, padrões.",
+              "text": "<p><strong>É necessário que o sistema possibilite o uso de customizações por meio dos salões, tais como anúncios e logos. A fim de maximizar o marketing e consequentemente o lucro do salão.  </strong></p>",
               "history": [
                 {
                   "affectedNodeId": "13",
@@ -2280,12 +2700,35 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:54:02.386Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito não funcional 9"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:41:58.502Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:42:08.238Z"
                 }
               ]
             },
             {
               "id": "92",
-              "heading": "Requisito não funcional 10",
+              "heading": "Requisitos externos, éticos.",
+              "text": "<p><strong>É de suma importância que salões concorrentes não consigam consultar informações como preço, serviços oferecidos e promoções. Por meio do sistema. </strong></p>",
               "history": [
                 {
                   "affectedNodeId": "13",
@@ -2308,6 +2751,28 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:54:06.637Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:42:21.899Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito não funcional 10"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "yan_13jf@hotmail.com",
+                    "name": "yan de paiva andrade"
+                  },
+                  "changedOn": "2017-04-03T03:42:37.028Z"
                 }
               ]
             }
