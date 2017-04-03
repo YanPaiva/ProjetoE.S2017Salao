@@ -11,11 +11,11 @@
         "email": "libor.bus@eccam.com",
         "company": "Eccam"
       },
-      "lastChangedOn": "2017-04-02T16:18:49.775Z",
+      "lastChangedOn": "2017-04-03T01:27:24.859Z",
       "lastChangedBy": {
-        "name": "Felipe Inhan",
-        "email": "felipe.inhan@gmail.com",
-        "company": "UFJF"
+        "name": "welton",
+        "email": "weltonah@hotmail.com",
+        "company": "ufjf"
       },
       "data": [
         {
@@ -248,7 +248,7 @@
           "children": [
             {
               "id": "9",
-              "heading": "Cadastro de Salão",
+              "heading": "Cadastro de usuario",
               "asAn": "Gerente",
               "entrada": "<p>CNPJ;</p><p>Nome do Salão;</p><p>Localização;</p><p>Serviços fornecidos com respectivos preços;</p><p>Funcionários;</p><p>Horário de atendimento;</p><p>Agenda;</p>",
               "iWant": "<p>atualizar as informações sobre meu Salão</p>",
@@ -258,7 +258,7 @@
               "saida": "<p>Informações se dados foram cadastrados com sucesso ou não</p>",
               "soThat": "<p>o aplicativo possa fornecer informações atuais para qualquer usuário do aplicativo</p>",
               "type": "Epic",
-              "text": "<p>Um novo salão pode ser cadastrado e seus dados atualizados pelo responsável.</p>",
+              "text": "<p>O sistema deve permitir o cadastro de um usuário mediante informação de nome, email, data de nascimento, cpf, endereço e senha.</p>",
               "history": [
                 {
                   "attributesChanged": {
@@ -502,16 +502,29 @@
                     "name": "Felipe Inhan"
                   },
                   "changedOn": "2017-04-02T16:18:49.719Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Cadastro de Salão",
+                    "text": "<p>Um novo salão pode ser cadastrado e seus dados atualizados pelo responsável.</p>"
+                  },
+                  "changedBy": {
+                    "company": "ufjf",
+                    "email": "weltonah@hotmail.com",
+                    "name": "welton"
+                  },
+                  "changedOn": "2017-04-03T01:22:25.359Z"
                 }
               ]
             },
             {
               "id": "19",
-              "heading": "Requisito 2",
+              "heading": "Login do usuario",
               "asAn": "Architect",
               "iWant": "<p>to be able to define custom object attributes</p>",
               "soThat": "<p>I can flexibly store additional information in project documents.</p>",
               "type": "User Story",
+              "text": "<p>O sistema deve permitir a autenticação de um usuário mediante fornecimento de email e senha ou de autenticação via Facebook.</p>",
               "history": [
                 {
                   "affectedNodeId": "9",
@@ -545,16 +558,29 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:19:57.761Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 2",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ufjf",
+                    "email": "weltonah@hotmail.com",
+                    "name": "welton"
+                  },
+                  "changedOn": "2017-04-03T01:22:51.135Z"
                 }
               ]
             },
             {
               "id": "16",
-              "heading": "Requisito 3",
+              "heading": "Busca de salões",
               "asAn": "Architect",
               "iWant": "<p>to be able to define relationship types between document objects</p>",
               "soThat": "<p>I can setup consistent traceability between requirements and other document objects</p>",
               "type": "User Story",
+              "text": "<p>O sistema deve permitir ao usuário a busca de salões pelo nome, pela disponibilidade, pelo serviço a ser efetuado, ou pela proximidade ao local em que se encontra.</p>",
               "history": [
                 {
                   "affectedNodeId": "9",
@@ -588,16 +614,29 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:20:01.987Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 3",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ufjf",
+                    "email": "weltonah@hotmail.com",
+                    "name": "welton"
+                  },
+                  "changedOn": "2017-04-03T01:23:25.849Z"
                 }
               ]
             },
             {
               "id": "14",
-              "heading": "Requisito 4",
+              "heading": "Cadastrar Horário",
               "asAn": "Architect",
               "iWant": "<p>to be able to save a document as a document template into a file</p>",
               "soThat": "<p>I can preserve consistent document structure in different projects</p>",
               "type": "User Story",
+              "text": "<p>O sistema deve permitir a um gerente de salão efetuar e alterar o cadastro de horários livres.</p>",
               "history": [
                 {
                   "affectedNodeId": "9",
@@ -631,16 +670,40 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:20:24.457Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 4",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ufjf",
+                    "email": "weltonah@hotmail.com",
+                    "name": "welton"
+                  },
+                  "changedOn": "2017-04-03T01:23:55.109Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Cadastrar Horario"
+                  },
+                  "changedBy": {
+                    "company": "ufjf",
+                    "email": "weltonah@hotmail.com",
+                    "name": "welton"
+                  },
+                  "changedOn": "2017-04-03T01:24:15.476Z"
                 }
               ]
             },
             {
               "id": "15",
-              "heading": "Requisito 5",
+              "heading": "Cadastro de Gerente",
               "asAn": "Architect",
               "iWant": "<p>to be able to save a project as a project template into a file</p>",
               "soThat": "<p>I can quickly reuse project setup for new projects</p>",
               "type": "User Story",
+              "text": "<p>O sistema deve permitir a um gerente a adição de novos gerentes a seu salão.</p>",
               "history": [
                 {
                   "affectedNodeId": "9",
@@ -674,16 +737,29 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:20:29.363Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 5",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ufjf",
+                    "email": "weltonah@hotmail.com",
+                    "name": "welton"
+                  },
+                  "changedOn": "2017-04-03T01:24:53.870Z"
                 }
               ]
             },
             {
               "id": "12",
-              "heading": "Requisito 6",
+              "heading": "Avaliar salão",
               "asAn": "Architect",
               "iWant": "<p>to be able to create documents in the project</p>",
               "soThat": "<p>I can separate definition of project requirements, tests, risks and other project artifacts</p>",
               "type": "User Story",
+              "text": "<p>O sistema deve permitir ao usuário a qualificação de um salão em uma métrica de 1 a 5 estrelas e um comentário.</p>",
               "history": [
                 {
                   "affectedNodeId": "9",
@@ -717,13 +793,26 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:20:37.100Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 6",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ufjf",
+                    "email": "weltonah@hotmail.com",
+                    "name": "welton"
+                  },
+                  "changedOn": "2017-04-03T01:25:15.830Z"
                 }
               ]
             },
             {
               "id": "8",
-              "heading": "Requisito 7",
+              "heading": "Replica de comentario",
               "type": "Epic",
+              "text": "<p>O sistema deve permitir ao gerente a réplica a um comentário de um usuário.</p>",
               "history": [
                 {
                   "attributesChanged": {
@@ -735,12 +824,25 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:20:42.236Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 7",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ufjf",
+                    "email": "weltonah@hotmail.com",
+                    "name": "welton"
+                  },
+                  "changedOn": "2017-04-03T01:25:41.073Z"
                 }
               ]
             },
             {
               "id": "65",
-              "heading": "Requisito 8",
+              "heading": "Agendamento de serviço",
+              "text": "<p>O sistema deve permitir ao usuário o agendamento em um salão, explicitando o serviço a ser efetuado e o horário.</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -763,12 +865,25 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:24:55.613Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 8",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ufjf",
+                    "email": "weltonah@hotmail.com",
+                    "name": "welton"
+                  },
+                  "changedOn": "2017-04-03T01:26:09.402Z"
                 }
               ]
             },
             {
               "id": "66",
-              "heading": "Requisito 9",
+              "heading": "Notificação de agendamento",
+              "text": "<p>O sistema deve gerar uma notificação para o gerente no caso de agendamento e deve permitir ao gerente aprovar ou rejeitar o agendamento, permitindo um comentário no caso de rejeição</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -791,12 +906,25 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:25:10.423Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 9",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ufjf",
+                    "email": "weltonah@hotmail.com",
+                    "name": "welton"
+                  },
+                  "changedOn": "2017-04-03T01:26:49.774Z"
                 }
               ]
             },
             {
               "id": "67",
-              "heading": "Requisito 10",
+              "heading": "Cadastro de feedback",
+              "text": "<p>​​​​​​​O sistema deve permitir ao usuário ou gerente a emissão de feedback a ser avaliado pelo administrador.</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -819,6 +947,18 @@
                     "name": "welton"
                   },
                   "changedOn": "2017-03-30T14:25:15.807Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Requisito 10",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ufjf",
+                    "email": "weltonah@hotmail.com",
+                    "name": "welton"
+                  },
+                  "changedOn": "2017-04-03T01:27:24.687Z"
                 }
               ]
             },
