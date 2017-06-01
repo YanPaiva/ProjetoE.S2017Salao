@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="pt-br" Xmanifest="appcache.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Nossas Lojas</title>
+    <meta name="description" content="WebApp de exemplo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/icon.png">
+    <meta name="theme-color" content="#F77F00">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Shopping">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon-precomposed" href="img/icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/icon.png">
+    <meta name="msapplication-TileColor" content="#F77F00">
+
+    <script>
+    if (window.location.protocol != "https:" && window.location.hostname == "sergiolopes.github.io")
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    </script>
+
+</head>
+<body>
+<div class="current-page">
+
+
+<main class="lojas">
+<div class="topo-fixo z-depth-1 row">
+    <div class=" valign-wrapper amber darken-2 white-text">
+		
+
+        <h5 class="titulo">Salões</h5>
+
+        <div>
+            <i class="material-icons waves-effect waves-light
+                      waves-circle dropdown-button"
+                data-activates="submenu" data-gutter="5"
+                data-constrainwidth="false">
+                    more_vert
+            </i>
+            <ul id="submenu" class="dropdown-content">
+            	<li><a class="black-text" href="config.html">Configuração</a></li>
+            	<li><a class="black-text" href="feedback.html">Mande um feedback</a></li>
+				<li><a class="black-text" href="ajuda.html">Ajuda</a></li>
+				<li><a class="black-text" href="index.html">Sair</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div>
+        <ul id="tabs-swipe-demo" class="tabs amber darken-2">
+            <li class="tab col s6">
+                <a href="#salao" class="active white-text waves-effect waves-light">Ofertas</a></li>
+            <li class="tab col s6">
+                <a href="#favoritos" class="white-text waves-effect waves-light">Favoritos</a></li>
+        </ul>
+        
+
+        
+    </div>
+    
+</div>
+<div id="salao" class="col s12 row">
+            <div class="col s12 " >
+                <a class="waves-effect waves-light btn " 
+                style="padding: 0px;margin-top: 10px; width: 100%; height: 100%; background-color: #7986cb ;">
+                     <div class="col s12 row" style="margin: 0px;">
+                            <div class="col s4" style=" padding:0;">
+                                <img class="circle responsive-img" style="margin-top: 10px; max-width: 100px;"
+                                src="img/salao1.jpg">
+                            </div>
+                            <div class="col s5" style="margin-top: 10px; ">
+                                <label class="white-text" style="font-size: 20px;">Salão de beleza priscila</label>
+                            </div>
+                            <div class="col s3" style="">
+                                <i class="material-icons red-text waves-ligh"
+                                style="margin-top: 10px; font-size:40px;">location_on</i>
+                                <br>5 KM
+                            </div>
+                     </div>
+                     <br>
+                     <div class="col s12 row" style="margin: 0px; max-height: 50px;">
+                            <div class="col s7 z-depth-6 card-panel" style="border-radius: 12px;">
+                                <i class="black-text">$$ 30~200</i>
+                            </div>
+                            <div class="col s1" style="">
+                                <i class="material-icons  yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                     </div>
+                
+                </a>
+            </div>
+
+            <div class="col s12 " >
+                <a class="waves-effect waves-light btn " 
+                style="padding: 0px;margin-top: 10px; width: 100%; height: 100%; background-color: #7986cb ;">
+                     <div class="col s12 row" style="margin: 0px;">
+                            <div class="col s4" style=" padding:0;">
+                                <img class="circle responsive-img" style="margin-top: 10px; max-width: 100px;"
+                                src="img/salao2.jpg">
+                            </div>
+                            <div class="col s5" style="margin-top: 10px; ">
+                                <label class="white-text" style="font-size: 20px;">Salão de beleza capricho</label>
+                            </div>
+                            <div class="col s3" style="">
+                                <i class="material-icons red-text waves-ligh"
+                                style="margin-top: 10px; font-size:40px;">location_on</i>
+                                <br>15 KM
+                            </div>
+                     </div>
+                     <br>
+                     <div class="col s12 row" style="margin: 0px; max-height: 50px;">
+                            <div class="col s7 z-depth-6 card-panel" style="border-radius: 12px;">
+                                <i class="black-text">$$$$ 30~400</i>
+                            </div>
+                            <div class="col s1" style="">
+                                <i class="material-icons  yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                     </div>
+                
+                </a>
+            </div>
+
+            <div class="col s12 " >
+                <a class="waves-effect waves-light btn " 
+                style="padding: 0px;margin-top: 10px; width: 100%; height: 100%; background-color: #7986cb ;">
+                     <div class="col s12 row" style="margin: 0px;">
+                            <div class="col s4" style=" padding:0;">
+                                <img class="circle responsive-img" style="margin-top: 10px; max-width: 100px;"
+                                src="img/salao3.jpg">
+                            </div>
+                            <div class="col s5" style="margin-top: 10px; ">
+                                <label class="white-text" style="font-size: 20px;">Salão de beleza verão</label>
+                            </div>
+                            <div class="col s3" style="">
+                                <i class="material-icons red-text waves-ligh"
+                                style="margin-top: 10px; font-size:40px;">location_on</i>
+                                <br>5 KM
+                            </div>
+                     </div>
+                     <br>
+                     <div class="col s12 row" style="margin: 0px; max-height: 50px;">
+                            <div class="col s7 z-depth-6 card-panel" style="border-radius: 12px;">
+                                <i class="black-text">$$$ 75~280</i>
+                            </div>
+                            <div class="col s1" style="">
+                                <i class="material-icons  yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                     </div>
+                
+                </a>
+            </div>
+
+            <div class="col s12 " >
+                <a class="waves-effect waves-light btn " 
+                style="padding: 0px;margin-top: 10px; width: 100%; height: 100%; background-color: #7986cb ;">
+                     <div class="col s12 row" style="margin: 0px;">
+                            <div class="col s4" style=" padding:0;">
+                                <img class="circle responsive-img" style="margin-top: 10px; max-width: 100px;"
+                                src="img/salao3.jpg">
+                            </div>
+                            <div class="col s5" style="margin-top: 10px; ">
+                                <label class="white-text" style="font-size: 20px;">Salão de beleza inverno</label>
+                            </div>
+                            <div class="col s3" style="">
+                                <i class="material-icons red-text waves-ligh"
+                                style="margin-top: 10px; font-size:40px;">location_on</i>
+                                <br>7.5 KM
+                            </div>
+                     </div>
+                     <br>
+                     <div class="col s12 row" style="margin: 0px; max-height: 50px;">
+                            <div class="col s7 z-depth-6 card-panel" style="border-radius: 12px;">
+                                <i class="black-text">$$ 30~125</i>
+                            </div>
+                            <div class="col s1" style="">
+                                <i class="material-icons  yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                     </div>
+                
+                </a>
+            </div>
+
+            <div class="col s12 " >
+                <a class="waves-effect waves-light btn " 
+                style="padding: 0px;margin-top: 10px; width: 100%; height: 100%; background-color: #7986cb ;">
+                     <div class="col s12 row" style="margin: 0px;">
+                            <div class="col s4" style=" padding:0;">
+                                <img class="circle responsive-img" style="margin-top: 10px; max-width: 100px;"
+                                src="img/salao3.jpg">
+                            </div>
+                            <div class="col s5" style="margin-top: 10px; ">
+                                <label class="white-text" style="font-size: 20px;">Salão você bonita sempre</label>
+                            </div>
+                            <div class="col s3" style="">
+                                <i class="material-icons red-text waves-ligh"
+                                style="margin-top: 10px; font-size:40px;">location_on</i>
+                                <br>30 KM
+                            </div>
+                     </div>
+                     <br>
+                     <div class="col s12 row" style="margin: 0px; max-height: 50px;">
+                            <div class="col s7 z-depth-6 card-panel" style="border-radius: 12px;">
+                                <i class="black-text">$$ 30~80</i>
+                            </div>
+                            <div class="col s1" style="">
+                                <i class="material-icons  yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                     </div>
+                
+                </a>
+            </div>
+
+            <div class="col s12 " >
+                <a class="waves-effect waves-light btn " 
+                style="padding: 0px;margin-top: 10px; width: 100%; height: 100%; background-color: #7986cb ;">
+                     <div class="col s12 row" style="margin: 0px;">
+                            <div class="col s4" style=" padding:0;">
+                                <img class="circle responsive-img" style="margin-top: 10px; max-width: 100px;"
+                                src="img/salao3.jpg">
+                            </div>
+                            <div class="col s5" style="margin-top: 10px; ">
+                                <label class="white-text" style="font-size: 20px;">Salão de beleza bom dia</label>
+                            </div>
+                            <div class="col s3" style="">
+                                <i class="material-icons red-text waves-ligh"
+                                style="margin-top: 10px; font-size:40px;">location_on</i>
+                                <br>55 KM
+                            </div>
+                     </div>
+                     <br>
+                     <div class="col s12 row" style="margin: 0px; max-height: 50px;">
+                            <div class="col s7 z-depth-6 card-panel" style="border-radius: 12px;">
+                                <i class="black-text">$ 10~200</i>
+                            </div>
+                            <div class="col s1" style="">
+                                <i class="material-icons  yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                     </div>
+                
+                </a>
+            </div>
+
+            <div class="col s12 " >
+                <a class="waves-effect waves-light btn " 
+                style="padding: 0px;margin-top: 10px; width: 100%; height: 100%; background-color: #7986cb ;">
+                     <div class="col s12 row" style="margin: 0px;">
+                            <div class="col s4" style=" padding:0;">
+                                <img class="circle responsive-img" style="margin-top: 10px; max-width: 100px;"
+                                src="img/salao3.jpg">
+                            </div>
+                            <div class="col s5" style="margin-top: 10px; ">
+                                <label class="white-text" style="font-size: 20px;">Salão de beleza verão</label>
+                            </div>
+                            <div class="col s3" style="">
+                                <i class="material-icons red-text waves-ligh"
+                                style="margin-top: 10px; font-size:40px;">location_on</i>
+                                <br>5 KM
+                            </div>
+                     </div>
+                     <br>
+                     <div class="col s12 row" style="margin: 0px; max-height: 50px;">
+                            <div class="col s7 z-depth-6 card-panel" style="border-radius: 12px;">
+                                <i class="black-text">$$ 28~89</i>
+                            </div>
+                            <div class="col s1" style="">
+                                <i class="material-icons  yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                     </div>
+                
+                </a>
+            </div>
+        </div>
+
+<div id="favoritos" class="col s12 row">
+                        <div class="col s12 " >
+                <a class="waves-effect waves-light btn " 
+                style="padding: 0px;margin-top: 10px; width: 100%; height: 100%; background-color: #7986cb ;">
+                     <div class="col s12 row" style="margin: 0px;">
+                            <div class="col s4" style=" padding:0;">
+                                <img class="circle responsive-img" style="margin-top: 10px; max-width: 100px;"
+                                src="img/salao3.jpg">
+                            </div>
+                            <div class="col s5" style="margin-top: 10px; ">
+                                <label class="white-text" style="font-size: 20px;">Salão de beleza bom dia</label>
+                            </div>
+                            <div class="col s3" style="">
+                                <i class="material-icons red-text waves-ligh"
+                                style="margin-top: 10px; font-size:40px;">location_on</i>
+                                <br>55 KM
+                            </div>
+                     </div>
+                     <br>
+                     <div class="col s12 row" style="margin: 0px; max-height: 50px;">
+                            <div class="col s7 z-depth-6 card-panel" style="border-radius: 12px;">
+                                <i class="black-text">$ 10~200</i>
+                            </div>
+                            <div class="col s1" style="">
+                                <i class="material-icons  yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons black-text waves-ligh" style="font-size:20px;">star</i></div>
+                     </div>
+                
+                </a>
+            </div>
+
+            <div class="col s12 " >
+                <a class="waves-effect waves-light btn " 
+                style="padding: 0px;margin-top: 10px; width: 100%; height: 100%; background-color: #7986cb ;">
+                     <div class="col s12 row" style="margin: 0px;">
+                            <div class="col s4" style=" padding:0;">
+                                <img class="circle responsive-img" style="margin-top: 10px; max-width: 100px;"
+                                src="img/salao3.jpg">
+                            </div>
+                            <div class="col s5" style="margin-top: 10px; ">
+                                <label class="white-text" style="font-size: 20px;">Salão de beleza verão</label>
+                            </div>
+                            <div class="col s3" style="">
+                                <i class="material-icons red-text waves-ligh"
+                                style="margin-top: 10px; font-size:40px;">location_on</i>
+                                <br>5 KM
+                            </div>
+                     </div>
+                     <br>
+                     <div class="col s12 row" style="margin: 0px; max-height: 50px;">
+                            <div class="col s7 z-depth-6 card-panel" style="border-radius: 12px;">
+                                <i class="black-text">$$ 28~89</i>
+                            </div>
+                            <div class="col s1" style="">
+                                <i class="material-icons  yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                            <div class="col s1" style="">
+                                <i class="material-icons yellow-text waves-ligh" style="font-size:20px;">star</i></div>
+                     </div>
+                
+                </a>
+            </div>
+
+        </div>
+
+
+
+</main>
+
+</div><!--/.current-page-->
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/spa.js"></script>
+<script src="js/main.js"></script>
+<script src="js/install.js"></script>
+
+<script src="js/pagamento.js"></script>
+<script src="js/vendor/quagga.min.js"></script>
+<script src="js/barcode.js"></script>
+
+</body>
+</html>
+

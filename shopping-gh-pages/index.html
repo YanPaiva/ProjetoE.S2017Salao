@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-br" Xmanifest="appcache.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Shopping</title>
+    <meta name="description" content="WebApp de exemplo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/logo.png">
+    <meta name="theme-color" content="#0097a7">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Shopping">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon-precomposed" href="img/logo.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/logo.png">
+    <meta name="msapplication-TileColor" content="#0097a7">
+
+    <script>
+    if (window.location.protocol != "https:" && window.location.hostname == "sergiolopes.github.io")
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    </script>
+
+</head>
+<body class="center-align">
+<div class="current-page">
+
+<main class="home">
+    <br>
+    
+    <div class="col s1 offset-s3 center-align ">
+	<img class="responsive-img" style="width: 50%; margin: 20px;"src="img/logo.jpg">
+    </div>
+
+	<h1 class="z-depth-1">Salão S.A.</h1>
+
+	<div class="collection z-depth-1">
+			
+	<div class="center-align">
+		<a href="login.html" class="collection-item waves-effect">
+			<i class="material-icons center-align">navigation</i>
+		        Login
+		</a>
+        <div>
+            <br>
+
+        </div>
+        <a href="cadastro.html" class="collection-item waves-effect">
+			<i class="material-icons center-align">recent_actors</i>
+			Cadastrar
+		</a>
+    
+</div>
+	</div>
+
+</main>
+
+</div>
+<!--/.current-page-->
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/spa.js"></script>
+<script src="js/main.js"></script>
+<script src="js/install.js"></script>
+
+<script src="js/pagamento.js"></script>
+<!-- <script src="js/vendor/quagga.min.js"></script> -->
+<script src="js/barcode.js"></script>
+
+</body>
+</html>
+
