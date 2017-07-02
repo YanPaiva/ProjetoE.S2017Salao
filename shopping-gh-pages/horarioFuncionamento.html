@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-br" Xmanifest="appcache.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>feedback</title>
+    <meta name="description" content="WebApp de exemplo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/icon.png">
+    <meta name="theme-color" content="#F77F00">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Shopping">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon-precomposed" href="img/icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/icon.png">
+    <meta name="msapplication-TileColor" content="#F77F00">
+
+    <script>
+    if (window.location.protocol != "https:" && window.location.hostname == "sergiolopes.github.io")
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    </script>
+
+</head>
+<body >
+<div class="current-page"  >
+
+
+<main class="salao" style="background-color:white;">
+<div class="valign-wrapper darken-2 white-text row" style="background-color: #f57f16;">
+    <div class="col s1">
+        <a href="cadastroServico.html"><i class="material-icons waves-effect waves-light waves-circle white-text">arrow_back</i></a>
+    </div>
+    <div class="col s9">
+        <h5 class="titulo center-align">Cadastro de Salão</h5>
+    </div>
+    <div class="col s2">
+        <i class="material-icons waves-effect waves-light
+                      waves-circle dropdown-button"
+                data-activates="submenu" data-gutter="5"
+                data-constrainwidth="false">
+                    more_vert
+            </i>
+
+            <ul id="submenu" class="dropdown-content">
+            	<li><a class="black-text" href="config.html">Configuração</a></li>
+            	<li><a class="black-text" href="feedback.html">Mande um feedback</a></li>
+				<li><a class="black-text" href="ajuda.html">Ajuda</a></li>
+				<li><a class="black-text" href="index.html">Sair</a></li>
+            </ul>
+    </div>
+</div>
+
+<div class="col s12 center" style="align-content: center;">
+<h5>Dados do horario de funcionamento</h5>
+</div>
+<div class="divider"></div>
+
+
+<div class="row" style="margin: 20px;">
+    <h6> Dias de funcionamento</h6>
+      <div class="row" style="background-color: #e3f2fd ; padding-top: 10px; padding-left: 20px;">
+        <div>
+            <input type="checkbox" class="filled-in" id="Doma" />
+            <label class="black-text"for="Doma">Dom</label><p>
+            <input type="checkbox" class="filled-in" id="a" />
+            <label class="black-text"for="a">Seg</label><p>
+            <input type="checkbox" class="filled-in" id="filled-in-box" />
+            <label class="black-text"for="filled-in-box">Ter</label><p>
+            <input type="checkbox" class="filled-in" id="rex" />
+            <label class="black-text"for="rex">Qua</label><p>
+            <input type="checkbox" class="filled-in" id="manicure" />
+            <label class="black-text"for="manicure">Qui</label><p>
+            <input type="checkbox" class="filled-in" id="Sex" />
+            <label class="black-text"for="Sex">Sex</label><p>
+            <input type="checkbox" class="filled-in" id="Sab" />
+            <label class="black-text"for="Sab">Sab</label><p>
+        </div>
+      </div>
+</div>
+<div class="divider"></div>
+
+<div class="row" style="margin: 20px;">
+    <h6> Horario de funcionamento (todos os dias)</h6>
+    <div class="col s12 row" >
+        <h6> 1° turno</h6>
+    <div class="col s1">
+        <br><span style="font-size: 20px;">De</span>
+    </div>
+    <div class="col s2">
+        <div class="input-field">
+          <input type="number" class="validate">
+        </div>
+    </div>
+    <div class="col s1">
+        <br><span style="font-size: 30px;">:</span>
+    </div>
+    <div class="col s2">
+        <div class="input-field">
+          <input type="number" class="validate">
+        </div>
+    </div>
+
+    <div class="col s1">
+        <br><span style="font-size: 20px;"> Até</span>
+    </div>
+    <div class="col s2">
+        <div class="input-field">
+          <input type="number" class="validate">
+        </div>
+    </div>
+    <div class="col s1">
+        <br><span style="font-size: 30px;">:</span>
+    </div>
+    <div class="col s2">
+        <div class="input-field">
+          <input type="number" class="validate">
+        </div>
+    </div>
+    </div>
+    <div class="col s12 row" >
+        <h6> 2° turno</h6>
+    <div class="col s1">
+        <br><span style="font-size: 20px;">De</span>
+    </div>
+    <div class="col s2">
+        <div class="input-field">
+          <input type="number" class="validate">
+        </div>
+    </div>
+    <div class="col s1">
+        <br><span style="font-size: 30px;">:</span>
+    </div>
+    <div class="col s2">
+        <div class="input-field">
+          <input type="number" class="validate">
+        </div>
+    </div>
+
+    <div class="col s1">
+        <br><span style="font-size: 20px;"> Até</span>
+    </div>
+    <div class="col s2">
+        <div class="input-field">
+          <input type="number" class="validate">
+        </div>
+    </div>
+    <div class="col s1">
+        <br><span style="font-size: 30px;">:</span>
+    </div>
+    <div class="col s2">
+        <div class="input-field">
+          <input type="number" class="validate">
+        </div>
+    </div>
+    </div>
+</div>
+<div class="divider"></div>
+<div class="row" style="margin: 20px;">
+    <h6> Formas de pagamento</h6>
+      <div class="row" style="background-color: #e3f2fd ; padding-top: 10px; padding-left: 20px;">
+        <div>
+            <input type="checkbox" class="filled-in" id="t" />
+            <label class="black-text"for="t">Cartão de Credito</label><p>
+            <input type="checkbox" class="filled-in" id="ag" />
+            <label class="black-text"for="ag">Boleto bancario</label><p>
+            <input type="checkbox" class="filled-in" id="ox" />
+            <label class="black-text"for="ox">Dinheiro fisico</label><p>
+            <input type="checkbox" class="filled-in" id="k" />
+            <label class="black-text"for="k">Cheque</label><p>
+            <input type="checkbox" class="filled-in" id="Bitcoin" />
+            <label class="black-text"for="Bitcoin">Bitcoin</label><p>
+            <input type="checkbox" class="filled-in" id="Transferencia" />
+            <label class="black-text"for="Transferencia">Transferencia bancaria</label><p>
+            <input type="checkbox" class="filled-in" id="Paypal" />
+            <label class="black-text"for="Paypal">Paypal</label><p>
+        </div>
+      </div>
+</div>
+<div class="divider"></div>
+<div class="right-align" style="margin: 5px;">
+          <a href="gerente.html" class="waves-effect waves-light btn ">Cadastrar</a>
+</div>
+</form>
+
+</main>
+
+</div><!--/.current-page-->
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/spa.js"></script>
+<script src="js/main.js"></script>
+<script src="js/install.js"></script>
+
+<script src="js/pagamento.js"></script>
+<script src="js/vendor/quagga.min.js"></script>
+<script src="js/barcode.js"></script>
+
+</body>
+</html>
+

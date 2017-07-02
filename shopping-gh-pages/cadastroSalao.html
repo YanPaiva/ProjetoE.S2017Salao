@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="pt-br" Xmanifest="appcache.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>feedback</title>
+    <meta name="description" content="WebApp de exemplo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/icon.png">
+    <meta name="theme-color" content="#F77F00">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Shopping">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon-precomposed" href="img/icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/icon.png">
+    <meta name="msapplication-TileColor" content="#F77F00">
+
+    <script>
+    if (window.location.protocol != "https:" && window.location.hostname == "sergiolopes.github.io")
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    </script>
+
+</head>
+<body >
+<div class="current-page"  >
+
+
+<main class="salao" style="background-color:white;">
+<div class="valign-wrapper darken-2 white-text row" style="background-color: #f57f16;">
+    <div class="col s1">
+        <a href="gerente.html"><i class="material-icons waves-effect waves-light waves-circle white-text">arrow_back</i></a>
+    </div>
+    <div class="col s9">
+        <h5 class="titulo center-align">Cadastro de Salão</h5>
+    </div>
+    <div class="col s2">
+        <i class="material-icons waves-effect waves-light
+                      waves-circle dropdown-button"
+                data-activates="submenu" data-gutter="5"
+                data-constrainwidth="false">
+                    more_vert
+            </i>
+
+            <ul id="submenu" class="dropdown-content">
+            	<li><a class="black-text" href="config.html">Configuração</a></li>
+            	<li><a class="black-text" href="feedback.html">Mande um feedback</a></li>
+				<li><a class="black-text" href="ajuda.html">Ajuda</a></li>
+				<li><a class="black-text" href="index.html">Sair</a></li>
+            </ul>
+    </div>
+</div>
+<div class="col s12 center" style="align-content: center;">
+<h5>Dados do salão</h5>
+</div>
+<div class="divider"></div>
+
+<div class="row" style="margin: 20px;">
+    <form class="col s12">
+        <div class="row">
+            <div class="input-field col s12">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">Nome</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+            <input id="number" type="text" class="validate">
+            <label for="first_name" >CEP</label>
+            </div>
+        </div>
+        <div class="col s12">
+            <h6> Estado:</h6>
+            <select style="width: 75%;"class="browser-default">
+                <option value="estado">Selecione o Estado</option> 
+		<option value="ac">Acre</option> 
+		<option value="al">Alagoas</option> 
+		<option value="am">Amazonas</option> 
+		<option value="ap">Amapá</option> 
+		<option value="ba">Bahia</option> 
+		<option value="ce">Ceará</option> 
+		<option value="df">Distrito Federal</option> 
+		<option value="es">Espírito Santo</option> 
+		<option value="go">Goiás</option> 
+		<option value="ma">Maranhão</option> 
+		<option value="mt">Mato Grosso</option> 
+		<option value="ms">Mato Grosso do Sul</option> 
+		<option value="mg">Minas Gerais</option> 
+		<option value="pa">Pará</option> 
+		<option value="pb">Paraíba</option> 
+		<option value="pr">Paraná</option> 
+		<option value="pe">Pernambuco</option> 
+		<option value="pi">Piauí</option> 
+		<option value="rj">Rio de Janeiro</option> 
+		<option value="rn">Rio Grande do Norte</option> 
+		<option value="ro">Rondônia</option> 
+		<option value="rs">Rio Grande do Sul</option> 
+		<option value="rr">Roraima</option> 
+		<option value="sc">Santa Catarina</option> 
+		<option value="se">Sergipe</option> 
+		<option value="sp">São Paulo</option> 
+		<option value="to">Tocantins</option> 
+            </select>
+        </div>
+        <div class="col s10">
+            <h6> Cidade:</h6>
+            <select style="width: 75%;"class="browser-default">
+                <option value="estado">Selecione o Estado</option> 
+                <option value="ac">Juiz de Fora</option> 
+                <option value="al">Tocantins</option> 
+                <option value="am">Ibitipoca</option> 
+                <option value="ap">Belo horizonte</option> 
+                <option value="ba">Barbacena</option> 
+                <option value="ce">Ubá</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="input-field col s10">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">Rua</label>
+            </div>
+            <div class="input-field col s2">
+            <input id="last_name" type="number" class="validate">
+            <label for="last_name">Numero</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+            <input id="email" type="text" class="validate">
+            <label for="email">Bairro</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+            </div>
+        </div>
+        <p>
+            <input type="checkbox" class="filled-in" id="filled-in-box" />
+            <label for="filled-in-box">Eu li e concordo com os termos de uso</label>
+        </p>
+        <div class="right-align" style="margin: 5px;">
+            <a href="cadastroServico.html" class="waves-effect waves-light btn ">Avançar</a>
+        </div>
+    </form>
+</div>
+</form>
+
+</main>
+
+</div><!--/.current-page-->
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/spa.js"></script>
+<script src="js/main.js"></script>
+<script src="js/install.js"></script>
+
+<script src="js/pagamento.js"></script>
+<script src="js/vendor/quagga.min.js"></script>
+<script src="js/barcode.js"></script>
+
+</body>
+</html>
+

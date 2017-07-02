@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Cadastro</title>
+    <title>feedback</title>
     <meta name="description" content="WebApp de exemplo">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
@@ -32,70 +32,67 @@
     </script>
 
 </head>
-<body>
+<body >
 <div class="current-page"  >
 
 
 <main class="salao" style="background-color:white;">
 <div class="valign-wrapper darken-2 white-text row" style="background-color: #f57f16;">
     <div class="col s1">
-        <a href="index.html"><i class="material-icons waves-effect waves-light waves-circle white-text">arrow_back</i></a>
+        <a href="gerente.html"><i class="material-icons waves-effect waves-light waves-circle white-text">arrow_back</i></a>
     </div>
-    <div class="col s10">
-        <h5 class="titulo center-align">Cadastro</h5>
+    <div class="col s9">
+        <h5 class="titulo center-align">Mande sua opinião</h5>
     </div>
-    <div class="col s1">
+    <div class="col s2">
+        <i class="material-icons waves-effect waves-light
+                      waves-circle dropdown-button"
+                data-activates="submenu" data-gutter="5"
+                data-constrainwidth="false">
+                    more_vert
+            </i>
+
+            <ul id="submenu" class="dropdown-content">
+            	<li><a class="black-text" href="config.html">Configuração</a></li>
+            	<li><a class="black-text" href="feedback.html">Mande um feedback</a></li>
+				<li><a class="black-text" href="ajuda.html">Ajuda</a></li>
+				<li><a class="black-text" href="index.html">Sair</a></li>
+            </ul>
     </div>
 </div>
 
-<div class="row" style="background-color:white;">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <input id="first_name" type="text" class="validate">
-          <label for="first_name">Nome</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Sobrenome</label>
+<div class="row" style="margin: 20px;">
+    
+      <div class="center-align" style="margin: 5px;">
+          <h5> numero de usuários</h5>
+        <div class="col s12 center-align">
+            <img class="responsive-img " style="width: 
+            100%; margin: 20px;"src="img/graf1.jpg">
         </div>
       </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
+      <div class="center-align" style="margin: 5px;">
+          <h5> numero de serviços por mês</h5>
+        <div class="col s12 center-align">
+            <img class="responsive-img " style="width: 
+            100%; margin: 20px;"src="img/graf2.jpg">
         </div>
       </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">Usuario</label>
+      <div class="center-align" style="margin: 5px;">
+          <h5> faturamento por serviços</h5>
+        <div class="col s12 center-align">
+            <img class="responsive-img " style="width: 
+            100%; margin: 20px;"src="img/graf3.jpg">
         </div>
       </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Senha</label>
-        </div>
+      <div class="center-align" style="margin: 5px;">
+          <a class="waves-effect waves-light btn " style="height: 100%">
+              <i class="material-icons">email</i> 
+              Enviar relatorio completo via email
+              <i class="material-icons">email</i> </a>
       </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Digite novamente a senha</label>
-        </div>
-      </div>
-      <p>
-        <input type="checkbox" class="filled-in" id="filled-in-box" />
-        <label for="filled-in-box">Eu li e concordo com os termos de uso</label>
-      </p>
-      <div class="right-align" style="margin: 5px;">
-          <a href="salao.html" class="waves-effect waves-light btn ">Cadastrar</a>
-      </div>
-    </form>
-</div>
-
-
-
+    
+  </div>
+</form>
 
 </main>
 
