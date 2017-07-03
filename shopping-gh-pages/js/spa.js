@@ -1,3 +1,8 @@
+var preventRedirect = false;
+ $(document).ready(function() {
+    $('select').material_select();
+  });
+  
 void function(){
 	$(document).trigger('pageload', this.href);
 
@@ -21,6 +26,11 @@ void function(){
 	}
 
 	$body.on('click', 'a', function(event){
+		event.preventDefault();
+		if(preventRedirect){
+			preventRedirect = false
+			return
+		}
 		var href = this.getAttribute('href');
 		if (href.indexOf('#') == 0 || href.indexOf(':') >= 0) return;
 		
@@ -30,8 +40,6 @@ void function(){
 		window.history.pushState({push:true}, '', href);
 
 		load(href);
-
-		event.preventDefault();
 	});
 
 	window.onpopstate = function(event) {
