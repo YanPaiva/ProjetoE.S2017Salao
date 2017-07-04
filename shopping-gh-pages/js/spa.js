@@ -1,8 +1,5 @@
 var preventRedirect = false;
- $(document).ready(function() {
-    $('select').material_select();
-  });
-  
+
 void function(){
 	$(document).trigger('pageload', this.href);
 
@@ -23,7 +20,13 @@ void function(){
 			$(document).trigger('pageload', this.href);
 			$body.scrollTop(0);
 		});
+		if(url.endsWith("salao.html")){
+			var script = document.createElement('script');
+			script.setAttribute('src','js/favoritos.js');
+			document.body.appendChild(script);
+		}
 	}
+	
 
 	$body.on('click', 'a', function(event){
 		event.preventDefault();
@@ -40,6 +43,7 @@ void function(){
 		window.history.pushState({push:true}, '', href);
 
 		load(href);
+		
 	});
 
 	window.onpopstate = function(event) {
